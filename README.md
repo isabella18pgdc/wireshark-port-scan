@@ -79,7 +79,7 @@ graph LR
 
 ## Como reproduzir
 
-Pré-requisitos: as três VMs da topologia já configuradas no VirtualBox (Windows, OPNsense, Ubuntu Server), com a Ubuntu acessível por SSH a partir do Windows.
+Pré-requisitos: as duas VMs da topologia (OPNsense e Ubuntu Server) já configuradas no VirtualBox, com a Ubuntu acessível por SSH a partir do Windows (host).
 
 1. No Windows, criar a rota temporária para alcançar a LAB-LAN sem quebrar o isolamento das redes:
    ```
